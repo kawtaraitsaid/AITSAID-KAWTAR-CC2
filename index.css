@@ -1,0 +1,73 @@
+
+ h1{
+
+    text-align: center;
+    text-decoration: underline;
+     color: red;
+}
+h2{
+    background-color: green;
+    font-style: italic;
+}
+img{
+    border-radius: 40%;
+}
+header{
+    height: 90px;
+    weight:100%;
+    background-color: rgb(207, 207, 81);
+    justify-content: space-between;
+    
+}
+a{
+    background-color: rgb(155, 155, 76);
+    color: black;
+    text-decoration: none;
+    flex-direction: row;
+    
+    
+    
+}
+.search{
+    align-items: end;
+    background-color: rgb(128, 128, 34);
+    color: white;
+} 
+    
+.emo1{
+    margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+     border-radius: 75px;
+     
+}
+.emo2{
+    margin: 500px;
+    display: flex;
+    border-radius: 75px;
+}
+.emo3{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 75px;
+}
+
+#boite {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation:animate;
+}
+@keyframes animate{
+    0%{
+        transform: translate(0px,0px);
+       
+    }
+    50%{
+        transform: translate(10px,10px);
+    }
+    100%{
+        transform: translate(400px,0px);
+    }
+}
